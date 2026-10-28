@@ -4,7 +4,11 @@
 #
 #    pip-compile --no-emit-trusted-host --no-index requirements.in
 #
-brotli==1.0.7             # via fonttools
+brotli==1.2.1
+    # via fonttools
 fonttools[woff]==4.0.2
+    # via -r requirements.in
 xmltodict==0.12.0
-zopfli==0.1.6             # via fonttools
+    # via -r requirements.in
+zopfli==0.1.6
+    # via fonttools
